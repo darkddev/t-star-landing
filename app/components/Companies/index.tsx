@@ -9,16 +9,13 @@ interface Data {
 
 const data: Data[] = [
     {
-        imgSrc: "/images/Companies/DiscoveryPlus.svg"
+        imgSrc: "/images/Companies/discovery.svg"
     },
     {
         imgSrc: "/images/Companies/fancentro.svg"
     },
     {
-        imgSrc: "/images/Companies/fanvue.png"
-    },
-    {
-        imgSrc: "/images/Companies/MTV.webp"
+        imgSrc: "/images/Companies/fanvue.svg"
     },
     {
         imgSrc: "/images/Companies/onlyfans.svg"
@@ -27,10 +24,7 @@ const data: Data[] = [
         imgSrc: "/images/Companies/playboy.svg"
     },
     {
-        imgSrc: "/images/Companies/talpa.webp"
-    },
-    {
-        imgSrc: "/images/Companies/TemptingStars.webp"
+        imgSrc: "/images/Companies/talpa.svg"
     }
 ]
 

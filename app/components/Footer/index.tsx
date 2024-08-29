@@ -54,11 +54,11 @@ const footer = () => {
           {/* CLOUMN-2/3 */}
 
           {products.map((product) => (
-            <div key={product.id} className="group relative col-span-2">
-              <p className="text-white text-xl font-medium mb-9">{product.section}</p>
+            <div key={product.id} className="group relative col-span-6">
+              <p className="text-white text-xl font-medium mb-9 box-content text-center">{product.section}</p>
               <ul>
                 {product.link.map((link: string, index: number) => (
-                  <li key={index} className='mb-5'>
+                  <li key={index} className='mb-5 box-content text-center'>
                     <Link href="/" className="text-offwhite  text-sm font-normal mb-6 space-links">{link}</Link>
                   </li>
                 ))}
@@ -66,12 +66,12 @@ const footer = () => {
             </div>
           ))}
 
-          <div className="col-span-4">
+          {/* <div className="col-span-4">
             <h3 className="text-white text-xl font-medium mb-9">Contact Us</h3>
             <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/number.svg'} alt="number-icon" width={20} height={20} />(406) 555-012</h4>
             <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/email.svg'} alt="email-icon" width={20} height={20} />tim.jennings@example.com</h4>
             <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/address.svg'} alt="address-icon" width={20} height={20} />Elgin St. Celina, Delaware 10299</h4>
-          </div>
+          </div> */}
 
         </div>
       </div>

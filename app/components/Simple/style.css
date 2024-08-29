@@ -1,0 +1,23 @@
+.calendly-badge-widget {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+@media (min-width: 1024px) {
+  .my-class {
+      padding-left: 3rem; /* Equivalent to lg:px-12 */
+      padding-right: 3rem; /* Equivalent to lg:px-12 */
+  }
+}
+
+.calendly-badge-content {
+  background: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%) !important;
+  border-radius: 10px !important;
+  padding : 1.5rem 2.5rem !important;
+  font-size: 1.25rem !important; /* Equivalent to text-xl */
+  font-weight: 600 !important;   /* Equivalent to font-semibold */
+}
+
+.calendly-badge-content:hover {
+  background: linear-gradient(90deg, #2D6ADE 0%, #BD24DF 97.15%) !important;
+}

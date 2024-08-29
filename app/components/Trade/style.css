@@ -1,0 +1,36 @@
+input, textarea {
+  background-color: rgba(189, 36, 223, 0.1);
+  color: #333333;
+  border: 2px solid #BD24DF;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:hover, textarea:hover {
+  background-color: rgba(189, 36, 223, 0.1);
+  border-color: #0056b3;
+}
+
+select {
+  background-color: rgba(189, 36, 223, 0.1); /* Background color of the select */
+  border: 2px solid #007bff; /* Border color of the select */
+  color: #333; /* Text color of the select */
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 16px;
+}
+
+/* Style for the option elements */
+select option {
+  background-color: rgba(189, 36, 223, 0.1) !important; /* Background color of the options */
+  color: #000000; /* Text color of the options */
+  padding: 10px;
+}
+
+/* Optional: Change the color of the options when hovered */
+select option:hover {
+  background-color: #007bff; /* Background color when hovering */
+  color: #ffffff; /* Text color when hovering */
+}

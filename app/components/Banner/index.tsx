@@ -28,7 +28,7 @@ const Banner = () => {
                             <p className='text-white md:text-lg font-normal mb-5 md:text-start text-center'>With <b className='text-red'>Gigant</b>Online, we boost your traffic through <b>powerful social media strategies and cutting-edge SEO.</b> Our mastery of <b>marketing automation and paid advertising</b> ensures <b>rapid growth</b> and <b>increased revenue.</b> Ready to <b>skyrocket your business?</b></p>
                             <p className='text-white md:text-lg font-normal mb-10 md:text-start text-center'><b>Let’s achieve success together.</b></p>
                             <div className='flex align-middle justify-center md:justify-start'>
-                                <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton mr-6'>Get Started</button>
+                                <a href='#chat-section' className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton mr-6'>Get Started</a>
                                 <button onClick={() => setOpen(true)} className='bg-transparent flex justify-center items-center text-white'><Image src={'/images/Banner/playbutton.svg'} alt="button-image" className='mr-3' width={47} height={47} />How it work</button>
                             </div>
                         </div>

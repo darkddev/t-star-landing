@@ -1,0 +1,5 @@
+.strikethrough  {
+  text-decoration: line-through; /* Apply the strike-through line */
+  text-decoration-color: #FF5733; /* Color of the strike-through line */
+  text-decoration-thickness: 3px; /* Adjust thickness of the line */
+}

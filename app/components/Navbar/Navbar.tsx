@@ -40,12 +40,12 @@ const Navbar = () => {
                                 <img
                                     className="block h-10 w-20px lg:hidden"
                                     src={'/images/Logo/logo.png'}
-                                    alt="Gigantonline"
+                                    alt="Tempting Stars"
                                 />
                                 <img
-                                    className="hidden h-10 w-12px md:block lg:block"
+                                    className="hidden h-20 w-12px md:block lg:block"
                                     src={'/images/Logo/logo.png'}
-                                    alt="Gigantonline"
+                                    alt="Tempting Stars"
                                 />
                             </div>
 

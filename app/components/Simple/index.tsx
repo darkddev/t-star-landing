@@ -20,7 +20,7 @@ const Simple = () => {
             <div className="mx-auto max-w-5xl py-24 px-6">
                 <h3 className="text-center text-offwhite text-3xl lg:text-5xl font-semibold mb-6">Ready to Boost Your Brand?</h3>
                 <h6 className="text-center text-offwhite text-1xl lg:text-3xl font-semibold mb-6">Let’s Chat and Plan Your Next Move</h6>
-                <p className="text-center text-bluish text-lg font-normal mb-8">Got questions or excited to get started? Drop us a message using the form on the right or book a call directly through our Calendly. We’re here to help you make great things happen!</p>
+                <p className="text-center text-bluish text-lg font-normal mb-8">Got questions or excited to get started? Drop us a message using the form or book a call directly through our Calendly. We’re here to help you make great things happen!</p>
                 <div className="flex justify-center ">
                     <button id="calendly-widget">
                         <PopupWidget

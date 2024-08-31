@@ -10,11 +10,11 @@ interface faqdata {
 
 const faqdata: faqdata[] = [
     {
-        heading: "1. What is Gigantonline",
-        subheading: 'Gigant & Online is...'
+        heading: "1. What is Tempting Stars?",
+        subheading: 'Tempting Stars is...'
     },
     {
-        heading: "2. How can I ... from Gigantonline?",
+        heading: "2. How can I ... from Tempting Stars?",
         subheading: 'You can...'
     }
 ]

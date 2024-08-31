@@ -43,7 +43,14 @@ const footer = () => {
               src={'/images/Logo/logo.png'}
               alt="Crypto-Logo"
             />
-            <h3 className='text-lightblue text-sm font-bold leading-9 mb-4 lg:mb-16'>Unlock your brand's potential with GigantOnline. Our expertise in marketing automation, web development, custom software, SEO, and targeted advertising on major platforms ensures you get solutions that deliver real results. Partner with us to streamline your digital strategy and drive exceptional growth.</h3>
+            <h3 className="text-white text-xl font-medium">About Us</h3>
+            <h3 className='text-lightblue text-sm font-bold leading-9 mb-1 lg:mb-1'>Increase your revenue and expand your fanbase by leveraging our specialized Content Strategy and Account Management. We collaborate with you to develop a robust strategy and handle all the details, allowing you to focus entirely on creating great content.</h3>
+            <div className="col-span-4 ">
+              <h4 className="text-lightblue text-sm font-bold mb-6 flex gap-2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Account Management</h4>
+              <h4 className="text-lightblue text-sm font-bold mb-6 flex gap-2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Collaborate with other Creators</h4>
+              <h4 className="text-lightblue text-sm font-bold mb-6 flex gap-2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Advanced Content Strategy</h4>
+              <h4 className="text-lightblue text-sm font-bold mb-6 flex gap-2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 24/7 Service</h4>
+            </div>
             <div className='flex gap-4'>
               {socialLinks.map((items, i) => (
                 <Link href={items.href} key={i}><img src={items.imgsrc} alt={items.imgsrc} className='footer-icons' width="30px" height="30px" /></Link>
@@ -79,7 +86,7 @@ const footer = () => {
       {/* All Rights Reserved */}
 
       <div className='py-8 px-4 border-t border-t-lightblue'>
-        <h3 className='text-center text-offwhite'>Copyright ©2018-2024 Gigantonline. All Rights Reserved</h3>
+        <h3 className='text-center text-offwhite'>Copyright ©2018-2024 Tempting Stars. All Rights Reserved</h3>
       </div>
 
     </div>

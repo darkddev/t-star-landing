@@ -9,22 +9,16 @@ interface featuresdata {
 
 const featuresdata: featuresdata[] = [
     {
-        imgSrc: '/images/Features/featureOne.svg',
-        heading: 'Visibility & Conversion',
-        shortheading: 'Boost Engagement',
-        subheading: 'Elevate your brand to the top of search engine results, ensuring visibility to the right audience. Our strategies enhance your site\'s conversion rate, turning visitors into customers and maximizing online sales.',
-    },
-    {
         imgSrc: '/images/Features/featureTwo.svg',
-        heading: 'Lead & Sales',
-        shortheading: 'Convert & Grow',
-        subheading: 'Turn visitors into valuable leads, effectively amplifying your sales. Our targeted approach optimizes conversion tactics, making each interaction a strategic step towards significant business growth.',
+        heading: 'Seduce and Shine,',
+        shortheading: 'Be your own boss!',
+        subheading: 'By creating exclusive content, you open the door to a world of subscriptions and build a stable stream of passive income. This means financial freedom, where you earn while you sleep, travel, or develop new projects. Free yourself from the traditional 9-to-5 routine and enjoy the security and flexibility that come with a successful content career.',
     },
     {
         imgSrc: '/images/Features/featureThree.svg',
-        heading: 'Marketing Automation',
-        shortheading: 'Social Media Growth',
-        subheading: 'Unify visibility, conversion, and lead generation to dominate your online presence. Our comprehensive marketing solutions are designed to attract and retain customers, ensuring a constant growth.',
+        heading: 'Social Media Strategy',
+        shortheading: 'Following, Followers',
+        subheading: 'Organic account growth on social media involves attracting followers through high-quality content and active engagement without using paid ads. By consistently posting relevant content and interacting with your audience, you can build a loyal and engaged following over time.',
     },
 ]
 

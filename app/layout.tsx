@@ -5,8 +5,8 @@ import Footer from './components/Footer/index';
 
 
 export const metadata = {
-  title: 'Gigantonline',
-  description: 'Amplify Your Reach',
+  title: 'Tempting Stars',
+  description: 'Tempting Stars',
   icons: {
     icon: '/favicon.ico',
   },
